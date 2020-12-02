@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+
+body {
+    /* background-color: rgb(125, 99, 196); */
+    background-color: #7a86c0;
+}
+
+button {
+    font-family: 'Barlow';
+    border-radius: 3em;
+    justify-content: center;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 325px;
+    margin-right: 50px;
+    
+}
+
+button :hover{
+    background-color: #7480C2;
+}
