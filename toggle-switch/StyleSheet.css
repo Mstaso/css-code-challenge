@@ -1,0 +1,39 @@
+
+body {
+    background-color: #7a86cb;
+
+}
+
+#toggle {
+  width: 150px;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#toggle::before {
+    content: '';
+    display: block;
+    height: 100px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.35)
+    
+
+}
+
+
+#toggle:checked::before {
+    background-color: rgba(230, 231, 242, 0.15);
+    border: 1px solid #4c537e
+}
+
+
+
+label:checked:before {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: red;
+    border-radius: 120px;
+}
